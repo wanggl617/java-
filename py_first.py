@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 class Cat:
     '''这是一个猫类'''
 
@@ -21,3 +22,7 @@ lazy_cat.eat()
 print(lazy_cat)
 
 #两个猫类  tom 和 lazy_cat 是两个不同的对象  即可以有一个类，但是可有创建多个对象
+=======
+print("hello")
+print("hello world")
+>>>>>>> 813225ebbf840ad9b56354058dc5311623ec4903
