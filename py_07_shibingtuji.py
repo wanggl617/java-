@@ -24,7 +24,9 @@ class Soldier:
 
     def fire(self):
         #self.gun时一个 Gun类的对象，可以调用 Gun类的方法
-        if self.gun!=None:
+        #一般在与  None 比较时，通常使用  is /  is not  而不用等号
+        #if self.gun!=None:
+        if self.gun  is  not None:
             self.gun.add_bullet(60)
             print("我是%s,GO GO GO" % self.name)
             self.gun.shoot()
